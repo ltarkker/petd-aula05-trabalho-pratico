@@ -1,4 +1,4 @@
-# Python
+# ===== Python (Backend) =====
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,25 +7,52 @@ __pycache__/
 dist/
 build/
 .eggs/
+*.whl
 
 # Virtual environments
 venv/
 .venv/
 env/
+.env
 
-# IDE
+# ===== Flutter / Dart (Frontend) =====
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/pubspec.lock
+*.iml
+*.apk
+*.aab
+*.dSYM.zip
+*.dSYM
+
+# ===== IDE =====
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+*.sublime-project
+*.sublime-workspace
 
-# OS
+# ===== OS =====
 .DS_Store
 Thumbs.db
+desktop.ini
+ehthumbs.db
 
-# Jupyter
+# ===== Jupyter =====
 .ipynb_checkpoints/
 
-# Logs
+# ===== Logs =====
 *.log
+
+# ===== Environment / Secrets =====
+.env
+.env.local
+.env.production
+*.key
