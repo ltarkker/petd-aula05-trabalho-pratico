@@ -1,0 +1,1 @@
+Set-Location -LiteralPath "C:\Users\gonca\OneDrive\Ambiente de Trabalho\Documentos - Gonçalo\Fichas de trabalho\6º Semestre\[PETD] Programação Estruturada e Tipos de Dados\petd-repos\petd-aula05-trabalho-pratico\gestor_contactos"
